@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>{{title}}</title>
+    {{! Bootstrap css From https://www.bootstrapcdn.com/ }}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-primary navbar-dark d-flex justify-content-center"
+    >
+      <ul class="navbar-nav justify-content-around">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/projects">Projects</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    {{{body}}}
+    {{! Bootstrap JS From https://www.bootstrapcdn.com/ }}
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
